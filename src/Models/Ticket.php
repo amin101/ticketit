@@ -14,6 +14,8 @@ class Ticket extends Model
 
     protected $table = 'ticketit';
     protected $dates = ['completed_at'];
+    
+    protected $agent_id;
 
     /**
      * List of completed tickets.
